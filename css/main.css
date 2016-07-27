@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+}
+@media (min-width: 981px) {
+  body {
+    padding-top: 40px;
+  }
+}
+
+.compname {
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.jumbotron {
+  background-color: #ff8c66;
+}
+
+.intro {
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+
+a.fa {
+  vertical-align: middle;
+  text-decoration: none;
+  color: #808080;
+}
+
+/* Normal defines basic parts of website with personal styling */
+div.normal {
+  width: 100%;
+}
+
+.normal {
+  font-family: Montserrat, sans-serif, fantasy;
+  text-align: center;
+}
+
+/* general styles*/
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding:50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+a .social-btn {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+.about-image {
+  border-radius: 100%;
+  margin-left: 180px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+.about-intro {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.about-intro p{
+  font-size: 4.5em;
+  font-weight: 100;
+}
+.about-social {
+  vertical-align: middle;
+  text-align: center;
+}
+
+a:hover img{
+  opacity: 0.9;
+  background-color: black;
+}
+
+/* additional sections */
+#home {
+  background: url(../images/JourneyArt.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#about{
+}
+
+#services {
+  background-color: #ff6666;
+  color: #ffffff;
+}
+#services .glyphicon{
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  background: url(../images/estate.jpg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+footer {
+  padding: 20px 0;
+}
