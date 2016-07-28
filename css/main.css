@@ -9,6 +9,11 @@ body {
   }
 }
 
+#available-img {
+  display: block;
+  margin:auto;
+}
+
 .compname {
   text-shadow: 1px 1px 1px #000000;
 }
@@ -22,10 +27,18 @@ body {
   padding-bottom: 100px;
 }
 
+a.web-link {
+  color: #ff0000;
+}
 a.fa {
   vertical-align: middle;
   text-decoration: none;
+  padding: 0px 5px 0px 5px;
   color: #808080;
+}
+
+.img-icon {
+  width: 140px;
 }
 
 /* Normal defines basic parts of website with personal styling */
@@ -79,10 +92,9 @@ a .social-btn {
 
 .about-image {
   border-radius: 100%;
-  margin-left: 180px;
   margin-bottom: 20px;
-  vertical-align: middle;
-  text-align: center;
+  display: block;
+  margin: auto;
 }
 .about-intro {
   margin: 0;
@@ -100,12 +112,11 @@ a .social-btn {
 
 a:hover img{
   opacity: 0.9;
-  background-color: black;
 }
 
 /* additional sections */
 #home {
-  background: url(../images/JourneyArt.jpg) no-repeat center center fixed;
+  background: url(../images/newtitlepic.jpg) no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
@@ -135,7 +146,7 @@ a:hover img{
 }
 
 #information {
-  background: url(../images/estate.jpg) no-repeat center center fixed;
+  background: url(../images/kb.jpg) no-repeat center center fixed;
   display: table;
   height: 800px;
   position: relative;
@@ -148,6 +159,19 @@ a:hover img{
 #information .panel {
   opacity: 0.85;
 }
+
+#extra {
+  background-color: #FF6666;
+}
+
+.extra-title {
+
+}
+.extra {
+  text-align: center;
+}
+
 footer {
   padding: 20px 0;
+  background-color: #FF6666;
 }
